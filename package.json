@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^14.18.0",
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "g4f": "^1.4.6",
+    "openai": "^4.85.4"
   }
 }
