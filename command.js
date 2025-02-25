@@ -1,4 +1,4 @@
-const { REST, Routes } = require('discord.js');
+const { REST, Routes, Options } = require('discord.js');
 require('dotenv').config();
 const TOKEN = process.env.RESET_TOKEN; 
 const CLIENT = process.env.CLIENT_ID;
@@ -7,6 +7,19 @@ const commands = [
   {
     name: 'ping',
     description: 'Replies with Pong!',
+  },
+  {
+    name:'chat',
+    description: 'Chat with the bot!',
+    options:[
+      {
+        name:'user',
+        type :3,//msg is a type of string
+        description: 'Msg will be send to BOT!',
+        required: true,
+      },
+    ]
+
   },
 ];
 
