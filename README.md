@@ -10,7 +10,7 @@ A simple Discord bot built using `discord.js` that responds to messages, registe
 - Uses **Discord.js v14** and supports interaction handling.
 
 ## 🏗️ Tech Stack
--Node.js
--Discord.js
--GoogleGenerativeAI SDK
+- Node.js
+- Discord.js v14
+- GoogleGenerativeAI SDK
 
